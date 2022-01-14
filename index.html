@@ -1,0 +1,249 @@
+{% extends 'web/base.html' %}{%load static%}{% block headers %}
+ 
+ 
+ <body>
+   <!-- ======= Header ======= -->
+   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+     <div class="container d-flex justify-content-between align-items-center">
+ 
+       <div class="logo">
+         <h1 class="text-light"><a href="/home"><span>Vcare</span></a></h1>
+         <!-- Uncomment below if you prefer to use an image logo -->
+         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+       </div>
+ 
+       <nav id="navbar" class="navbar">
+         <ul>
+           <li><a class="active " href="/home">Home</a></li>
+           <li><a class="active " href="/about">About</a></li>
+           <li class="dropdown"><a href="/services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+             <ul>    
+               <li><a href="/services">Repatriation services</a></li>
+               <li><a href="/services">Burial services</a></li>
+               <li><a href="/services">Cremation services</a></li>
+               
+             </ul>
+           </li>
+           
+           <li class="dropdown"><a href="/portfolio"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+                 <ul>
+                  <li><a href="/portfolio">Wooden Burial Coffin</a></li>
+                   <li><a href="/portfolio">Standard Repatriation Coffin</a></li>
+                   <li><a href="/portfolio">Caskets</a></li>
+                   <li><a href="/portfolio">Tombstone Arrangements</a></li>
+                   <li><a href="/portfolio">Florists</a></li>
+                   <li><a href="/portfolio">Shrouds</a></li>
+                 </ul>
+           </li>
+           <li><a href="contact.html">Contact Us</a></li>
+         </ul>
+         <i class="bi bi-list mobile-nav-toggle"></i>
+       </nav><!-- .navbar -->
+ 
+     </div>
+ </header>
+<!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown"><span>Value care Project management</span></h2>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Repatriation services</h2>
+          <p class="animate__animated animate__fadeInUp">Commited to Excellence.</p>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Share and care your Affliction</h2>
+          <p class="animate__animated animate__fadeInUp">When you need the most.</p>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        </div>
+      </div>
+       <!-- Slide 4 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Funeral Services</h2>
+          <p class="animate__animated animate__fadeInUp">In UAE.</p>
+          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+  
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box icon-box-pink">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Repatriation services</a></h4>
+              <p class="description"> At your loved one’s loss in a foreign country, people are clueless about the further procedures, during such difficult times, we take care of everything from the start till the end until your loved one’s reaches the destination with great care and dignity.
+           </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box icon-box-cyan">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Burial services</a></h4>
+              <p class="description"> Burial facility is available in United Arab Emirates for expatriates. Burial Ground or emirate is decided on the bases of deceased visa Status; whether it is Residence/Visit etc and approval of local authorities. When we arrange burial, we ensure everything is followed as per the rules.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Cremation services</a></h4>
+              <p class="description">We arrange the cremation of your loved one as you request. In UAE we use different cremation centers located on different locations in different Emirates.We do also provide the services to repatriate of Ashes/Urns/Cremates of deceased to your requested destination.
+                </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-blue">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Contact Us</a></h4>
+              <p class="description">
+
+                Please contact us: Call, what’s app and Text: +971523552005 <br>Email: vcarepm@outlook.com <br>or<br> do write us we will be glad and pleased to assist you.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+   <!-- End Services Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 video-box">
+            <img src={% static "web/vcare/img/why-us.jpg" %} class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-gift"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section class="features">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Features</h2>
+          
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5">
+            <img src={% static "web/vcare/img/features-1.svg" %} class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-4">
+            
+            <ul>
+              <li><i class="bi bi-check"></i> 
+
+                If you are a local company and need assistance for your employees, we advise you on everything you need to take into account. We also, take care of all the steps to repatriate the deceased or Funeral Services, with the maximum attention from where the tragedy has happened to its final destination.
+                </li>
+              <li><i class="bi bi-check"></i> 
+
+                We process all the required documentation for repatriation anywhere in UAE including local clearance and flight bookings.
+                </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5 order-1 order-md-2">
+            <img src={% static "web/vcare/img/features-2.svg" %}  class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1">
+            
+            <ul>
+              <li><i class="bi bi-check"></i> 
+
+                If you are a consulate or representative of a government body, you can contact us to know in depth details about the repatriation. We are experts in Personalizing funeral service and repatriation as per the requirement. We work with consulates and organize everything to fit your needs.
+                </li>
+              <li><i class="bi bi-check"></i> 
+
+                We will organize according to your insured’s will. We handle funeral services and international repatriation to any country in the world.
+
+                </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5">
+            <img src={% static "web/vcare/img/features-3.svg" %}  class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5">
+            
+            <ul>
+              <li><i class="bi bi-check"></i> 
+
+                If you are a funeral company from any other country in the world, contact us and we will help you process your request.
+                </li>
+              <li><i class="bi bi-check"></i> 
+
+                Please contact us:Call, what’s app and Text: +971523552005 Email: vcarepm@outlook.com or do write us we will be glad and pleased to assist you.
+
+
+                </li>
+            </ul>
+          </div>
+        </div>
+
+        
+    </section><!-- End Features Section -->
+
+  </main><!-- End #main -->
+  <!-- ======= Footer ======= -->
+  {% endblock %}
